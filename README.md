@@ -10,6 +10,17 @@ For example:
    
     $ sudo sh /path/to/add_vhost.sh ukr.net
 
+
+***
+
+
+If you need to set file owner and file permission after you enabled vhost you can launch **set-file-permission.sh**  
+For example:
+   
+    $ sudo sh ./set-file-permission.sh
+
+
+
 ## What does script do?
 
  - Add user **www-domaincom** and group **www-domaincom** to Linux for
